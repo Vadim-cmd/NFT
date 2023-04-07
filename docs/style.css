@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Rubik";
+}
+
+button {
+  border: none;
+}
+
+.main {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 1710px;
+  background-color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 75px 20px 90px;
+}
+
+.header__logo {
+  width: 100px;
+  height: 80px;
+  margin-top: 25px;
+}
+
+.logo {
+}
+
+.logo__image {
+}
+
+.header__right {
+  display: flex;
+}
+
+.header__list {
+  color: #fff;
+  margin-right: 180px;
+  margin-top: 20px;
+}
+
+.pages {
+}
+
+.pages__item + .pages__item {
+  margin-left: 40px;
+}
+
+.header__button {
+}
+
+button.btn-yellow {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  height: 61px;
+  width: 201px;
+  border: 3px solid #ffa503;
+  border-radius: 17px;
+  color: #fff;
+  background: none;
+}
+
+.content {
+  padding-top: 50px;
+  padding-left: 90px;
+}
+
+.content__title {
+  color: #fff;
+  font-size: 48px;
+  width: 520px;
+}
+
+.orange {
+  color: orange;
+}
+
+.content__form {
+  display: flex;
+  align-items: center;
+}
+
+.form__button {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-left: 10px;
+}
+
+.form__button img {
+  width: 38px;
+  height: 38px;
+}
+
+.form__input {
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  padding: 15px;
+  border: 1px solid orange;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form__input::placeholder {
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+/* == container ============================================== */
+
+.container {
+  margin-top: 100px;
+}
+
+.container__title {
+  width: 494px;
+  height: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.img-coins {
+}
+
+.container__items {
+  margin-top: 270px;
+}
+
+.items-title {
+  width: 161px;
+  height: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  color: #ffa503;
+}
+
+.items {
+  display: flex;
+  gap: 71px;
+}
+
+.item {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+}
